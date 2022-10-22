@@ -98,8 +98,10 @@
     </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+useHead({
+    title: "About || Maxi Ruti",
+});
 </script>
 
 <style scoped>

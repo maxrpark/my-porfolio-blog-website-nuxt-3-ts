@@ -18,6 +18,10 @@
 <script setup lang="ts">
 import { Project } from "../../ts/interfaces";
 
+useHead({
+    title: "Projects || Maxi Ruti",
+});
+
 const { data } = await useFetch<string>(
     () => "https://my-portfolio-blog-website.netlify.app/api/myProjects"
 );

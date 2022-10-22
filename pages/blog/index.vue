@@ -16,6 +16,10 @@
 <script setup lang="ts">
 import { Post } from "../../ts/interfaces";
 
+useHead({
+    title: "Blog || Maxi Ruti",
+});
+
 const { data: posts } = await useFetch<Post[]>(
     () => `https://dev.to/api/articles?username=maxrpark`
 );
