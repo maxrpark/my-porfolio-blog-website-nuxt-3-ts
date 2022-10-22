@@ -1,5 +1,5 @@
 <template>
-    <li class="single-project">
+    <li class="single-project" :id="project.url">
         <img class="img project-img-card" :src="project.url" alt="" />
         <div class="project-details">
             <div class="project-title">
@@ -12,16 +12,15 @@
                     v-for="tag in project.tags.slice(0, 2)"
                     :key="tag"
                 >
-                    <NuxtLink class="" :to="`/`">{{ tag }}</NuxtLink>
+                    <p>{{ tag }}</p>
                 </div>
             </div>
-
             <div class="project-links">
                 <a class="project-btn" target="_blank" :href="project.pageUrl"
                     >visit</a
                 >
-                <NuxtLink class="project-btn" :to="`/projects/${project.id}`"
-                    >read more</NuxtLink
+                <a class="project-btn" target="_blank" :href="project.gitUrl"
+                    >source</a
                 >
             </div>
         </div>
@@ -30,15 +29,11 @@
 
 <script setup lang="ts">
 import { Project } from "../../ts/interfaces";
-// /projects/tags/${tag}
-// /projects/${project.id}
 
 interface Props {
     project: Project;
 }
 const props = defineProps<Props>();
-
-// cd
 </script>
 
 <style scoped>
@@ -104,6 +99,22 @@ const props = defineProps<Props>();
     height: 300px;
     object-fit: cover;
     transition: all 0.5s linear;
+}
+.tag p {
+    text-transform: uppercase;
+    color: var(--primary-color-one);
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color-one);
+    border-radius: 25px;
+    transition: all 0.1s linear;
+    font-size: 1rem;
+    line-height: unset;
+    /* padding: 0; */
+}
+.tag p:hover {
+    color: var(--primary-color-one);
+    background-color: rgba(110, 133, 178, 0.2);
+    transform: translateY(-3px);
 }
 
 @media screen and (min-width: 768px) {

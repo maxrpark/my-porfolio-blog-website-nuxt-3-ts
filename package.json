@@ -8,6 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
     "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "@nuxtjs/markdownit": "^2.0.0"
   }
 }

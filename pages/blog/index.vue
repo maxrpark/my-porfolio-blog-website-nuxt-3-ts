@@ -1,9 +1,6 @@
 <template>
     <div>
-        <UiHero
-            title="Blog"
-            desc="About courses and things I like or see about web development"
-        />
+        <UiHero title="Blog" desc="Read me on Medium and DevTo" />
         <div class="blog-section">
             <ul class="cards">
                 <BlogPostCard

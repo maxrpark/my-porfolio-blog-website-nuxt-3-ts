@@ -110,6 +110,7 @@ export default {};
 h2,
 h3 {
     text-align: center;
+    margin: 1rem;
 }
 a {
     display: inline-block;

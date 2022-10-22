@@ -1,4 +1,5 @@
 export interface Project {
+    img?: any;
     projectID: number;
     name: string;
     shortDsc: string;
