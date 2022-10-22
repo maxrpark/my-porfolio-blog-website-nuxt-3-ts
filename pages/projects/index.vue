@@ -22,6 +22,16 @@ const { data } = await useFetch<string>(
 const projects = JSON.parse(data.value!).filter(
     (project: Project) => project.featured === true
 );
+
+// const { data: projects } = useAsyncData("project", async () => {
+//     let res = await $fetch<string>(
+//         `https://my-portfolio-blog-website.netlify.app/api/myProjects`
+//     );
+//     let data = JSON.parse(res).filter(
+//         (project: Project) => project.featured === true
+//     );
+//     return data;
+// });
 </script>
 
 <style scoped></style>

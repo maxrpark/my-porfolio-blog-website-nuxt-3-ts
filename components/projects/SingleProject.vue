@@ -20,7 +20,9 @@
                 <a class="project-btn" target="_blank" :href="project.pageUrl"
                     >visit</a
                 >
-                <NuxtLink class="project-btn" :to="`/`">read more</NuxtLink>
+                <NuxtLink class="project-btn" :to="`/projects/${project.id}`"
+                    >read more</NuxtLink
+                >
             </div>
         </div>
     </li>
