@@ -12,6 +12,7 @@
     "nuxt": "3.0.0-rc.12"
   },
   "dependencies": {
-    "@nuxtjs/markdownit": "^2.0.0"
+    "@nuxtjs/markdownit": "^2.0.0",
+    "gsap": "^3.11.3"
   }
 }
