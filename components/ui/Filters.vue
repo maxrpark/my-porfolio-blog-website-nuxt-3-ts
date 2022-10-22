@@ -32,7 +32,6 @@ categories.value = [
             })
             .flat()
     ),
-    "all",
 ] as string[];
 </script>
 
