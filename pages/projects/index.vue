@@ -31,4 +31,8 @@ const projects = JSON.parse(data.value!).filter(
 );
 </script>
 
-<style scoped></style>
+<style scoped>
+.projects {
+    min-height: 40vh;
+}
+</style>
