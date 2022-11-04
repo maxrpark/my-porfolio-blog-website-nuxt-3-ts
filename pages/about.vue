@@ -1,6 +1,6 @@
 <template>
     <div>
-        <UiHero title="Maxi Ruti" desc="Abut Me" />
+        <UiHero title="Maxi Ruti" desc="About Me" />
 
         <div class="about-me">
             <article>
@@ -25,7 +25,7 @@
                 <h3>My Firsts real websites</h3>
 
                 <p>
-                    In 2020 I created my firsts website using WordPress, which
+                    In 2019 I created my firsts website using WordPress, which
                     is called
                     <nuxt-link to="/projects/reck8lMlwTFTGRTOg">
                         Aprende Coreano Paso a Paso
@@ -51,47 +51,28 @@
                 <h3>Becoming a Web developer</h3>
 
                 <p>
-                    This year I decided to learn front-end and back-end web
-                    development. I did not much about that when I started, but
-                    even if it sounds silly I am glad I had some WordPress
-                    experience because It helps me to understand some things
-                    faster, especially when I started learning HTML & CSS.
+                    Even though I enjoyed working with WP and on top of that it
+                    helped me to learn a lot of fundamentals, I always need I
+                    need it to go for more.
                 </p>
-
                 <p>
-                    I started learning as most self-taught web developers do,
-                    through google and youtube videos. Soon after that, I
-                    decided to take some Udemy courses.
+                    That is why I started to learn HTML&CSS and a few months
+                    later Javascript and later Typescript.
                 </p>
-
                 <p>
-                    Even though all the information you may need to know to
-                    become a web developer is out there for free, I like Udemy
-                    because the courses are well organized, you can download and
-                    re-watch the lessons any time you want.
+                    Since then, I have always been learning new things and also
+                    deeply.
                 </p>
-
                 <p>
-                    So I spent 3 months learning HTML&CSS and JavaScript, I
-                    studied for more than 10 hours every day even on weekends.
+                    I feel very comfortable using Javascript, which gave me the
+                    chance to quickly learn the most popular Javascript
+                    Frameworks and libraries such as React, Next.js, React
+                    Native, Vue, Nuxt, Node.js, and event Svelte.
                 </p>
-
-                <h3>My first job as Web developer</h3>
-
                 <p>
-                    Just when I was starting to learn React I got my first job
-                    interview and the most amazing that that is that I got the
-                    job. Which of course it is still unbelievable.
-                </p>
-
-                <p>
-                    I am learning so much at my job and I am also learning in my
-                    free time that is all I do. Learn, learn and keep learning.
-                </p>
-
-                <p>
-                    Yes, I love web development and this is my Portfolio - Blog
-                    created with Nuxt js.
+                    Even though Javascript has a sweet spot in my heart, I also
+                    feel comfortable white code in python, especially using
+                    Django.
                 </p>
             </article>
         </div>
