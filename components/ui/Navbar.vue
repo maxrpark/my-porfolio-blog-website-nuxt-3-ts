@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="navbar">
-      <a href="https://www.maxiruti.com/">Home</a>
+      <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/projects">Projects</NuxtLink>
       <NuxtLink to="/blog">Blog</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
