@@ -3,7 +3,7 @@
     <UiHero title="Maxi Ruti" desc="Creative Developer"
       ><UiSocialIcons />
     </UiHero>
-    <div class="projects">
+    <section class="projects">
       <UiSectionTitle section="projects" url="/projects" />
       <ul class="project-container" v-if="projects">
         <ProjectsSingleProject
@@ -12,8 +12,11 @@
           :key="project.id"
         />
       </ul>
-    </div>
-    <div class="blog-section">
+    </section>
+
+    <UiTwitterFeeds />
+
+    <section class="blog-section">
       <UiSectionTitle section="post" url="/blog" />
       <ul class="cards">
         <BlogPostCard
@@ -22,7 +25,7 @@
           :post="post"
         />
       </ul>
-    </div>
+    </section>
   </div>
 </template>
 
