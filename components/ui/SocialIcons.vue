@@ -1,13 +1,6 @@
 <template>
   <div class="social-icons">
     <a
-      href="https://www.instagram.com/maxi.r.park/"
-      target="_blank"
-      class="icons"
-    >
-      <IconsInstagram class="icon" />
-    </a>
-    <a
       href="https://twitter.com/MaxCodeJourney?s=08"
       target="_blank"
       class="icons"
