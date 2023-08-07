@@ -1,5 +1,5 @@
 <template>
-  <div class="twitter-feed">
+  <section class="twitter-feed">
     <h2>Let's meets on twitter</h2>
 
     <a
@@ -15,7 +15,7 @@
       src="https://platform.twitter.com/widgets.js"
       charset="utf-8"
     />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -28,10 +28,13 @@ h2 {
   padding: 1rem;
 }
 .twitter-feed {
-  max-width: 1200px;
+  max-width: 600px;
   margin: 0 auto;
   margin-top: 1rem;
-  /* overflow-y: scroll; */
-  height: 500px;
+  overflow-y: scroll;
+  /* height: 500px; */
+}
+.css-1dbjc4n {
+  display: none !important;
 }
 </style>

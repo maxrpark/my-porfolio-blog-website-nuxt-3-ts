@@ -14,8 +14,6 @@
       </ul>
     </section>
 
-    <UiTwitterFeeds />
-
     <section class="blog-section">
       <UiSectionTitle section="post" url="/blog" />
       <ul class="cards">
@@ -26,6 +24,7 @@
         />
       </ul>
     </section>
+    <!-- <UiTwitterFeeds /> -->
   </div>
 </template>
 
